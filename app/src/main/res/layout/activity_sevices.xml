@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A7CADB"
+    tools:context=".ServisesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/textViewHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:paddingBottom="12dp"
+            android:text="Our Services"
+            android:textColor="#093965"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <!-- Small Description -->
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:paddingBottom="55dp"
+            android:text="Explore the luxurious services we provide to make your stay comfortable and memorable."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <!-- Services List -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="14dp"
+            android:text="• Room Booking"
+            android:textColor="#90A4AE"
+            android:background="#093965"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="14dp"
+            android:text="• Spa  Wellness Center"
+            android:textColor="#90A4AE"
+            android:background="#093965"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="14dp"
+            android:text="• Swimming Pool Access"
+            android:textColor="#90A4AE"
+            android:background="#093965"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="14dp"
+            android:text="• Airport Pickup  Drop"
+            android:textColor="#90A4AE"
+            android:background="#093965"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="14dp"
+            android:text="• Fine Dining Restaurant"
+            android:textColor="#90A4AE"
+            android:background="#093965"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="14dp"
+            android:text="• Beachside Activities"
+            android:textColor="#90A4AE"
+            android:background="#093965"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#093965"
+            android:backgroundTint="#093965"
+            android:paddingBottom="14dp"
+            android:text="• Conference Rooms"
+            android:textColor="#90A4AE"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/h3" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFE2F2"
+    tools:context=".RegistrationActivity">
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="405dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:hint="Full Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNic"
+        android:layout_width="402dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="44dp"
+        android:hint="NIC Number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextName" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="408dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="44dp"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextNic" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="414dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="44dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextEmail" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="408dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="44dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPassword" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#093965"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextConfirmPassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
