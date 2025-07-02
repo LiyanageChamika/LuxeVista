@@ -20,7 +20,6 @@ public class BookingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booking);
 
-        // Initialize views
         datePicker = findViewById(R.id.datePicker);
         spinnerGuests = findViewById(R.id.spinnerGuests);
         Button btnConfirmBooking = findViewById(R.id.btnConfirmBooking);
